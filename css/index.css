@@ -1,0 +1,1045 @@
+html, body {
+  overflow: hidden;
+}
+
+#index-header-bg {
+	display: none;
+}
+
+.small-disp {
+	display: none;
+}
+
+.ipad-break {
+	display: none;
+}
+
+/*********************/
+/***    Preload    ***/
+/*********************/
+#preload {
+	position: absolute;
+	top: -9999px;
+	left: -9999px;
+}
+
+#pre2 {
+	background: url('../img/ExpHero1MB.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#pre3 {
+	background: url('../img/BonobosHero700K.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/*******************************/
+/***    Horizontal Slider    ***/
+/*******************************/
+#horizontal-bar {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 10px;
+	background-color: white;
+	z-index: 3801;
+	overflow: hidden;
+}
+
+.horiz-slider {
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.horiz-slider:hover {
+	background-color: #EF6050;
+	opacity: 0.6;
+}
+
+#current-slide {
+	position: relative;
+	width: 25%;
+	height: 100%;
+	background-color: #EF6050;
+	left: 0;
+	top: 0;
+}
+
+/*****************************/
+/***    Vertical Slider    ***/
+/*****************************/
+#vertical-bar {
+	position: fixed;
+	width: 10px;
+	height: 100%;
+	left: 0;
+	background-color: white;
+	z-index: 3801;
+	display: none;
+}
+
+.vert-slide {
+	width: 100%;
+	height: 25%;
+}
+
+.vert-slide:hover {
+	background-color: #EF6050;
+	opacity: 0.6;
+}
+
+#current-vert-slide {
+	position: absolute;
+	width: 100%;
+	height: 33.3333%;
+	background-color: #EF6050;
+	top: 0;
+}
+
+/*****************************/
+/***    Vertical Panels    ***/
+/*****************************/
+#wrapper {
+	position: relative;
+	height: 300%;
+	width: 100%;
+}
+
+.vertical-slide {
+	height: 33.333%;
+	width: 100%;
+}
+
+/*  Come back and phase this out after changing CSS/JS  */
+.copy-buffer {
+	margin-top: 3.5%;
+}
+
+.top-copy-buffer {
+	margin-top: 8%;
+}
+
+#iac-logo {
+	margin-top: 2%;
+}
+/*  End  */
+
+			/**********************************/
+			/***    First Vertical Panel    ***/
+			/**********************************/
+			#vertical-panel1 {
+				height: 33.333%;
+				width: 100%;
+			}
+
+			.slide {
+				position: absolute;
+				height: 33.333%;
+				width: 100%;
+				opacity: 0;
+			}
+
+			.bg-container {
+				position: absolute;
+				left: 0;
+				top: 0;
+				width: 100%;
+				height: 100%;
+				overflow: hidden;
+			}
+
+/*			video#bg-vid {
+				position: absolute;
+				top: 0;
+				left: 0;
+				min-width: 100%;
+				min-height: 100%;
+				margin-left: 0;
+				width: auto;
+				height: auto !important;
+				overflow: hidden;
+				color: transparent;
+			}
+
+			#bg-image {
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				overflow: hidden;
+			}*/
+
+			.slide-bg {
+				position: absolute;
+				top: 0;
+				left: 0;
+				height: 100%;
+				width: 100%;
+				opacity: 0;
+				overflow: hidden;
+			}
+
+			#panel1-bg {
+				background: url('../img/bg2.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				overflow: hidden;
+				width: 120%;
+				position: absolute;
+				left: -10%;
+			}
+
+			#panel3-bg {
+				background: url('../img/optimized/Exp_HeroFull.jpg');
+				background-position: 250px 100px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				overflow: hidden;
+				width: 110%;
+			}
+
+			#panel4-bg {
+				background: url('../img/optimized/Bonobos_HeroFull.jpg');
+				background-position: 30px 0px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 110%;
+			}
+
+			#panel2-bg {
+				background: url('../img/hudson_yards_hero.png');
+				background-position: -50px -175px;
+				background-repeat: no-repeat;
+				background-size: cover;
+				width: 110%;
+			}
+
+			#panel1-copy, #panel2-copy, #panel3-copy, #panel4-copy {
+				position: absolute;
+				top: 5.5%;
+				left: 7.5%;
+				margin-left: 10%;
+				z-index: 999;
+			}
+
+			/***********************************/
+			/***    Second Vertical Panel    ***/
+			/***********************************/
+			.logo-copy {
+				margin-top: 3.45rem;
+			}
+
+			.human-tout {
+				position: relative;
+				top: 2px;
+				left: auto;
+			}
+
+			/***********************************/
+			/***    Third Vertical Panel    ***/
+			/***********************************/
+			.logo-img-container {
+				height: 120px;
+				line-height: 120px;
+			}
+
+			#only-if-large {
+				display: none;
+			}
+
+/*******************************/
+/*** line breaks on services ***/
+/*******************************/
+@media only screen and (max-width: 2000px) {
+	#panel2-bg {
+		background-position: -50px -50px;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	#panel2-bg {
+		background-position: 50px -50px;
+	}
+}
+@media only screen and (max-width: 1195px) {
+	.before-want {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1073px){
+	.after-we {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 1072px) {
+	.before-we {
+		display: none;
+	}
+	.after-we {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1044px){
+	.before-psych {
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1082px){
+	.before-it {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 991px) and (min-width: 598px) {
+	.before-want {
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 991px) {
+	.before-we {
+		display: inline;
+	}
+	.before-psych{
+		display: none;
+	} 
+}
+
+@media only screen and (max-width: 712px){
+	.before-want {
+		display: inline;
+	}
+	.before-psych{
+		display: none;
+	} 
+}
+
+@media only screen and (max-width: 597px){
+	.before-want {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 536px){
+	.before-we {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 484px){
+	.before-audience {
+		display: none;
+	}	
+}
+
+@media only screen and (max-width: 451px){
+	.before-it {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 439px){
+	.before-psych {
+		display: inline;
+	}
+}
+
+/*******************/
+/***    Logos    ***/
+/*******************/
+
+#clients {
+	margin-top: 50px;
+}
+h4#clients {
+	padding: 0 0 0 auto;
+	margin: 0;
+}
+.logo-farm .logos {
+	text-align: left;
+}
+.logo-farm {
+	margin-top: 45px;
+	max-width: 1250px;
+	padding-left: 15px; 
+}
+.logos {
+	width: 159px;
+	line-height: 130px;
+}
+.logos img {
+	width: 60%;
+}
+.logo-related img {
+	width: 75%;
+}
+.logo-whotels img {
+	width: 50%;
+}
+.logo-amex img {
+	width: 55%;
+}
+.logo-gogo img {
+	width: 65%;
+}
+.logo-novation img {
+	width: 63%;
+}
+.logo-list li {
+	font-size: 0.8rem;
+	color: #8B786D;
+}
+.logo-list li a {
+	color: #8B786D;
+}
+
+a .logo-original:hover {
+	filter: none;
+ 	-webkit-filter: grayscale(0); 
+   -moz-filter: grayscale(0);
+   -ms-filter: grayscale(0);
+   -o-filter: grayscale(0); 
+}
+.logo-original {
+	-webkit-filter: grayscale(1);    
+   -moz-filter: grayscale(100%);    
+   -ms-filter: grayscale(100%);    
+   -o-filter: grayscale(100%);
+   filter: url("filters.svg#grayscale");
+}
+
+.logo-list {
+	display: none;
+}
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+
+@media only screen and (max-height: 730px) {
+	#first-row, #second-row {
+		font-size: 50%;
+	}
+}
+
+/********************************************/
+/***    Tablet and Phone Media Queries    ***/
+/********************************************/
+/********/
+/* iPad */
+/********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	html, body {
+		overflow: visible !important;
+	}
+
+	.copy-font {
+		font-size: 1em;
+	}
+	.logo-list ul li {
+		font-size: 1em;
+	}
+
+	#wrapper {
+		position: static;
+		width: 100%;
+		height: auto;
+		overflow: visible;
+	}
+
+	#index-header-bg {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 55px;
+		z-index: 997;
+		background-color: #F2F0F1;
+	}
+
+	/* Remove Navigation Bars & Nav Arrow */
+	#horizontal-bar {
+		display: none;
+	}
+
+	#vertical-bar {
+		display: none;
+	}
+
+	#arrow-black, .arrow-red {
+		display: none;
+	}
+
+	/* Remove absolutely positioned backgrounds */
+	.bg-container {
+		display: none;
+	}
+
+	/* Remove absolutely positioned panels */
+	.vertical-slide {
+		position: static;
+		/*height: 100%;*/
+		width: 100%;
+		opacity: 1;
+	}
+
+	#vertical-panel1 {
+		height: auto;
+		overflow: visible;
+		overflow-x: hidden;
+	}
+
+	/* Add background images to panel and make them stack */
+	.slide {
+		position: static;
+		width: 100%;
+		height: 100%;
+		opacity: 1;
+	}
+
+	#panel1, #panel2, #panel3, #panel4 {
+		border-bottom: 1px solid #8B786D;
+	}
+
+	/* Third Vertical Panel */
+	#awards, #press, #social {
+		margin-top: -100px;
+	}
+
+	#press, #social {
+		padding-left: 15px;
+	}
+
+	#clients {
+		margin-bottom: 4%;
+	}
+
+	/* Display breaks */
+	.display-break {
+		height: 1px;
+		background-color: #8B786D;
+		/*margin-top: 100px;*/
+		width: 100%;
+	}
+
+	.display-break-slide {
+		height: 1px;
+		background-color: #8B786D;
+		margin-top: 0px;
+		margin-left: -15%;
+		width: 130%;
+	}
+
+	#vertical-panel2 {
+		margin-bottom: 30px;
+	}
+}
+
+/*******************/
+/* iPad (portrait) */
+/*******************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	#panel1-copy, #panel2-copy, #panel3-copy, #panel4-copy {
+		position: static;
+		opacity: 1;
+	}
+
+	.small-disp-none {
+		display: block;
+	}
+
+	#panel1 {
+		background: url('../img/bg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel1-copy {
+		margin-top: 20%;
+		margin-left: 10%;
+		padding-left: 6px;
+	}
+
+	#panel3 {
+		background: url('../img/optimized/Exp_HeroFull.jpg');
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel3-copy {
+		margin-top: 0%;
+		margin-left: 0;
+		padding-left: 9px;
+	}
+
+	#panel4 {
+		background: url('../img/optimized/Bonobos_HeroFull.jpg');
+		background-position: -250px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel4-copy {
+		margin-top: 0%;
+		margin-left: 0;
+		padding-left: 9px;
+	}
+
+	#panel2 {
+		background: url('../img/hudson_yards_hero.png');
+		background-position: -225px 75px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel2-copy {
+		margin-left: 0;
+		margin-top: 0;
+		padding-left: 9px;
+	}
+
+	.logo-farm {
+		padding-bottom: 120px;
+	}
+}
+
+/*******************/
+/* iPad (landscape) */
+/*******************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	#panel1-copy, #panel2-copy, #panel3-copy, #panel4-copy {
+		position: static;
+		opacity: 1;
+	}
+
+	#panel1 {
+		background: url('../img/bg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel1-copy {
+		margin-left: 8.5%;
+		margin-top: 15%;
+	}
+
+	#panel3 {
+		background: url('../img/optimized/Exp_HeroFull.jpg');
+		background-position: 150px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel3-copy {
+		margin-top: -3%;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+
+	#panel4 {
+		background: url('../img/optimized/Bonobos_HeroFull.jpg');
+		background-position: 0px 40px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel4-copy {
+		margin-top: -3%;
+		width: 60%;
+		margin-left: 0;
+		padding-left: 10px;
+	}
+
+	#panel2 {
+		background: url('../img/hudson_yards_hero.png');
+		background-position: 150px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel2-copy {
+		margin-left: 0;
+		margin-top: -3%;
+		padding-left: 10px;
+		width: 60%;
+	}
+
+	.ipad-break {
+		display: block;
+	}
+
+	.small-screen-break {
+		display: none;
+	}
+}
+
+/**********************/
+/*** iPhone 2G - 4S ***/
+/**********************/
+@media only screen and (max-device-width : 520px) {
+	#clients {
+		margin-top: 30px;
+	}
+	.logo-list ul {
+		margin-bottom: 80px; 
+	}
+	ul li {
+		padding: 2px 0 2px 10px;
+	}
+	#vertical-panel2 .copy-font p {
+		height: 45px;
+	}
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.copy-font {
+		font-size: 1.15rem;
+	}
+	.logo-list ul li {
+		font-size: 1.15rem;
+	}
+
+	.copy-font p {
+		margin-bottom: 4px;
+	}
+
+	.filler {
+		z-index: 0;
+		width: 100%;
+		height: 15%;
+		padding-top: 125px;
+	}
+
+	.small-disp {
+		display: block;
+	}
+
+	#wrapper {
+		position: static;
+		width: 100%;
+		height: auto;
+		overflow: visible;
+	}
+
+	.small-disp-none {
+		display: none;
+	}
+
+	#index-header-bg {
+		display: block;
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 30px;
+		z-index: 997;
+		background-color: #F2F0F1;
+	}
+
+	/* Remove Navigation Bars & Nav Arrow */
+	#horizontal-bar {
+		display: none;
+	}
+
+	#vertical-bar {
+		display: none;
+	}
+
+	#arrow-black, .arrow-red {
+		display: none;
+	}
+
+	/* Remove absolutely positioned backgrounds */
+	.bg-container {
+		display: none;
+	}
+
+	/* Remove absolutely positioned panels */
+	.vertical-slide {
+		position: static;
+		/*height: 100%;*/
+		width: 100%;
+		opacity: 1;
+	}
+
+	#vertical-panel1 {
+		height: auto;
+		overflow: visible;
+		overflow-x: hidden;
+	}
+
+	/* Add background images to panel and make them stack */
+	.slide {
+		position: static;
+		width: 100%;
+		height: 1000px;
+		opacity: 1;
+	}
+
+	#panel1, #panel2, #panel3, #panel4 {
+		border-bottom: 1px solid #8B786D;
+	}
+
+	/* Second Vertical Panel */
+	#digital-design, #ecommerce, #corporate, #social-strategy {
+		/*width: 95%;*/
+	}
+
+	#digital-design h4, #ecommerce h4, #corporate h4, #social-strategy h4 {
+		padding-bottom: 4px;
+	}
+
+	/* Third Vertical Panel */
+	#iphone-minimize {
+		height: 0;
+		padding-top: 10%;
+	}
+
+	#awards, #press, #social {
+		/*width: 95%;*/
+	}
+
+	#press {
+		padding-left: 15px;
+	}
+
+	#awards h4, #press h4, #social h4 {
+		padding-bottom: 4px;
+	}
+
+	#clients {
+		margin-bottom: 4%;
+	}
+
+	/* Display breaks */
+	.display-break {
+		height: 1px;
+		background-color: #342B29;
+		margin-top: 50px;
+		width: 100%;
+	}
+
+	/* Possibly pulled to separate landscape and portrait later */
+	#panel1-copy, #panel2-copy, #panel3-copy, #panel4-copy {
+		position: static;
+		opacity: 1;
+	}
+
+	#panel1-copy {
+		margin-left: 10%;
+		padding-left: 17px;
+	}
+
+	#panel2-copy, #panel3-copy, #panel4-copy {
+		margin-left: 0;
+		padding-left: 13px;
+	}
+}
+
+
+/*********************************/
+/*** iPhone 2G - 4S (portrait) ***/
+/*********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	#panel1 {
+		background: url('../img/bg2.png');
+		background-position: -65px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	.small-screen-break {
+		display: none;
+	}
+
+	#panel1-copy {
+		margin-top: 20%;
+	}
+
+	#panel3 {
+		background: url('../img/optimized/Exp_HeroFull.jpg');
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel3-copy {
+		margin-top: -30%;
+	}
+
+	#panel4 {
+		background: url('../img/optimized/Bonobos_HeroFull.jpg');
+		background-position: -100px 15px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel4-copy {
+		margin-top: -30%;
+	}
+
+	#panel2 {
+		background: url('../img/hudson_yards_hero.png');
+		background-position: -175px 50px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel2-copy {
+		margin-top: -40%;
+		width: 85%;
+	}
+
+	.logos {
+		line-height: 100px;
+	}
+
+	#vertical-panel2 .copy-font p {
+		height: 30px;
+	}
+}
+
+/**********************************/
+/*** iPhone 2G - 4S (landscape) ***/
+/**********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+	.display-break {
+		height: 1px;
+		background-color: #342B29;
+		margin-top: 30px;
+		width: 100%;
+	}
+
+	#iphone-minimize {
+		height: 0;
+		padding-top: 20px;
+	}
+
+	.before-audience {
+		display: block;
+	}
+
+	.services-header {
+		margin-top: 0 !important;
+	}
+
+	#awards, #press {
+		margin-top: 0;
+	}
+
+	#panel1 {
+		background: url('../img/bg2.png');
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel1-copy {
+		margin-top: 10%;
+	}
+
+	#panel3 {
+		background: url('../img/optimized/Exp_HeroFull.jpg');
+		background-position: 120px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel3-copy {
+		margin-top: -25%;
+	}
+
+	#panel4 {
+		background: url('../img/optimized/Bonobos_HeroFull.jpg');
+		background-position: 30px -20px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel4-copy {
+		margin-top: -25%;
+	}
+
+	#panel2 {
+		background: url('../img/hudson_yards_hero.png');
+		background-position: 0px 0px;
+		background-repeat: no-repeat;
+		background-size: cover;
+		overflow: visible;
+		width: 100%;
+	}
+
+	#panel2-copy {
+		margin-top: -25%;
+	}
+
+	#vertical-panel2 .copy-font p {
+		height: 25px;
+	}
+}
+
+@media only screen and (max-device-width: 580px) {
+	.logo-farm {
+		display: none;
+	}
+	.logo-list {
+		display: inline;
+	}
+}
+
+@media only screen and (min-width: 1300px) {
+	.logos {
+		width: 185px;
+		line-height: 150px;
+	}
+}
+
+@media only screen and (min-width: 1600px) {
+	.logo-farm {
+		max-width: 1375px;
+	}
+	.logos {
+		width: 225px;
+		line-height: 150px;
+	}
+}

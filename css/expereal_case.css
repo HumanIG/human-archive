@@ -1,0 +1,551 @@
+/*************************/
+/***    Expereal CSS   ***/
+/*************************/
+body {
+	overflow-x: hidden; 
+}
+
+#mobile-app-visual-info {
+	padding-bottom: 25px;
+}
+
+.expereal-bg {
+	position: absolute;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+#iphone-image {
+	padding-left: 0;
+	padding-right: 0;
+	width: 100%;
+	max-width: 225px;
+	margin: 0 auto;
+	display: block;
+}
+
+#sprite {
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+
+#spritesheet {
+	height: 100%;
+	width: 1000%;
+}
+
+#bg-container {
+	position: absolute;
+	display: none;
+	opacity: 0;
+}
+
+#mobile-app-visual {
+	margin-top: 50px;
+}
+
+.title-sub-single {
+	padding-bottom: 25px;
+}
+
+.column-copy-a {
+	display: none;
+}
+
+.column-copy-b {
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.clear-line {
+	clear: both;
+}
+
+.ribbon {
+	z-index: 101;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+.posters {
+	margin-top: 50px;
+}
+
+/*******************/
+/***    Logos    ***/
+/*******************/
+.logo-original {
+	width: 50%;
+	-webkit-filter: grayscale(1);    
+   -moz-filter: grayscale(100%);    
+   -ms-filter: grayscale(100%);    
+   -o-filter: grayscale(100%);
+   filter: url("filters.svg#grayscale");
+   transform: rotate( .0001deg );
+}
+.logo-original:hover {
+	filter: none;
+ 	-webkit-filter: grayscale(0);    
+   -moz-filter: grayscale(0);    
+   -ms-filter: grayscale(0);    
+   -o-filter: grayscale(0);
+    transform: rotate( .0001deg );
+}
+
+.logos {
+	height: 150px;
+	margin: 50px 0;
+}
+
+.logos a {
+	line-height: 150px;
+	vertical-align: middle;
+}
+
+.logo-with-caption {
+	text-align: center;
+}
+
+blockquote {
+	text-align: left;
+}
+
+.logos img {
+	/*text-align: center;*/
+}
+
+.logo-original {
+	width: 60%;
+}
+
+.logo-with-caption .logo-original {
+	width: 35%;
+}
+
+.tech-crunch {
+	width: 15% !important;
+}
+
+.fwa {
+	width: 25% !important;
+}
+
+.fwa, .fast-company {
+	opacity: 0.5;
+}
+
+.logo-caption {
+	padding-left: 0;
+}
+
+.logos p {
+	text-align: left;
+}
+
+.fwa-caption {
+ width: 90%;
+ margin-left: 25%;
+}
+
+.fc-caption {
+	width: 70%;
+	margin-left: 25%;
+}
+
+.tc-caption {
+	width: 94%;
+	margin-left: 10%;
+}
+
+.logos-single {
+	display: table-cell;
+	vertical-align: middle;
+	float: none;
+	padding: 0 20px;
+}
+
+.logos-single-img {
+	width: 70%;
+	max-width: 250px;
+	margin: 0 auto;
+	display: block;
+}
+
+.logo-row2 {
+	margin-top: 100px;
+	text-align: center;
+}
+
+.stack {
+	height: 100px;
+}
+
+.stack a {
+	line-height: 100px;
+}
+
+.stack .logo-original {
+	width: 60%;
+}
+
+.psfk {
+	width: 40% !important;
+}
+.laughing-squid {
+	width: 30% !important;
+}
+.logo-farm .col-lg-2-4 {
+	float: left;
+}
+.quote {
+	font: 60px;
+}
+
+.openquote {
+	background: url('../img/pullquote.png') no-repeat;
+	text-align: center;
+	width: 50px;
+	height: 24px;
+	background-size: contain;
+	position: absolute;
+	left: -40px;
+	top: -14px;
+	opacity: .5;
+}
+.quote-inner {
+	display: inline-block;
+	margin: 0px auto;
+}
+.fwa-caption {
+	width: 90%;
+	margin-left: 0;
+	margin-left: 6%;
+}
+.fc-caption {
+	width: 95%;
+	margin-left: 5%;
+}
+.tc-caption {
+	width: 95%;
+	margin-left: 10%;
+}
+.bottom-logos div.col-lg-2-4 {
+	line-height: 150px;
+	text-align: center;
+}
+div.col-lg-2-4 img {
+	text-align: center;
+	margin: 0px auto;
+	display: inline-block;
+}
+.logo-farm {
+	margin-top: 0px;
+	font-size: 0.875rem;
+}
+.psfk {
+	width: 29% !important;
+}
+.shape {
+	width: 48%;
+}
+
+.bottom-logos {
+	margin-top: 50px;
+}
+.logos {
+	height: 100px;
+	margin: 0;
+}
+.quantified-self {
+	margin-left: 20%;
+	position: relative;
+	left: 11px;
+}
+/* NEW CSS FOR LOGO GRID */
+.logo-farm a img {
+	margin: 0px auto;
+	width: 35%;
+	-webkit-filter: grayscale(1);    
+   -moz-filter: grayscale(100%);    
+   -ms-filter: grayscale(100%);    
+   -o-filter: grayscale(100%);
+   filter: url("filters.svg#grayscale");
+   transform: rotate( .0001deg );
+}
+.logo-farm a:hover img {
+	filter: none;
+ 	-webkit-filter: grayscale(0);    
+   -moz-filter: grayscale(0);    
+   -ms-filter: grayscale(0);    
+   -o-filter: grayscale(0);
+    transform: rotate( .0001deg );
+}
+.bottom-logos .logos {
+	line-height: 150px;
+}
+.bottom-logos a img {
+	display: inline !important;
+}
+.bottom-logos-list {
+	display: none;
+}
+.logo-quantified-self img {
+	width: 45% !important;
+}
+.logo-farm a {
+	line-height: 150px;	
+}
+a.tech-crunch img {
+	width: 30%;
+}
+.logo-excerpt {
+	text-align: left;
+}
+.quote-outter {
+	width: 100%;
+}
+.quote {
+	background: url('../img/pullquote.png') no-repeat;
+	background-size: contain;
+	width: 20px;
+	height: 20px;
+	display: block;
+	position: relative;
+	top: 15px;
+	left: -24px;
+	opacity: .5;
+}
+.logo-excerpt {
+	width: 80%;
+	margin: 0px auto;
+}
+
+
+/**************/
+/*    GRID    */
+/**************/
+
+/*********************/
+/*    Media Query    */
+/*********************/
+@media only screen and (min-width: 1850px) {
+	#fwa-copy {
+		padding-left: 20px;
+	}
+}
+
+@media only screen and (max-width: 1600px) {
+	.clear-line {
+		clear: none;
+	}
+}
+
+@media only screen and (min-width: 1400px) {
+	#expereal-bg-dots {
+		max-width: 1400px;
+		left: 50%;
+		margin-left: -700px;
+	}
+}
+
+@media only screen and (min-width: 1024px) {
+	.col-lg-2-4 {
+		width: 20%;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.mini-padding {
+		padding-bottom: 30px;
+	}
+
+	#expereal-design-info h4 {
+		padding-bottom: 0;
+	}
+
+	#expereal-column-copy {
+		display: none;
+	}
+
+	#mobile-app-visual {
+		padding-top: 0;
+	}
+
+	.column-copy-b {
+		display: none;
+	}
+	.column-copy-a {
+		display: inline-block;
+		padding-bottom: 25px;
+	}
+	.title-sub-single {
+		padding-bottom: 10px;
+	}
+}
+
+@media only screen and (max-width: 769px) {
+	.logo-with-caption {
+		text-align: left;
+	}
+	.quote-outter {
+		margin-left: 0;
+		width: 75%;
+	}
+	.logo-excerpt {
+		margin-left: 20px;
+		margin-top: -30px;
+	}
+	.bottom-logos {
+		display: none;
+	}
+	.bottom-logos-list {
+		display: block;
+		padding-top: 8%;
+	}
+}
+
+/*****************************************/
+/***  Mobile and Tablet Media Queries  ***/
+/*****************************************/
+
+@media only screen and (max-width: 990px) {
+	.force-break {
+		clear: both;
+	}
+}
+
+/********/
+/* iPad */
+/********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#spritesheet {
+		margin-left: -700%;
+	}
+
+	.quote-outter {
+		width: 100%;
+	}
+
+	.logo-farm a img {
+		width: 50%;
+	}
+
+	.logo-farm .tech-crunch img {
+		width: 40%;
+	}
+
+	.bottom-logos {
+		display: block;
+	}
+	.bottom-logos-list {
+		display: none;
+	}
+
+}
+
+
+/*******************/
+/* iPad (portrait) */
+/*******************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+	.bottom-logos .logos {
+		text-align: left !important;
+		width: 50%;
+	}
+}
+
+/********************/
+/* iPad (landscape) */
+/********************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+	.col-lg-2-4 {
+		width: 25%;
+	}
+
+	.col-md-5 {
+		width: 50%;
+	}
+
+	.copy-third {
+		width: 75%;
+	}
+
+	.bottom-logos .logos {
+		width: 33.333%;
+	}
+}
+
+/******************/
+/* iPhone 2G - 4S */
+/******************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#spritesheet {
+		margin-left: -700%;
+	}
+
+	.posters {
+		margin-top: 30px;
+	}
+
+	#mobile-app-visual {
+		margin-top: 0;
+		padding-top: 30px;
+	}
+
+	#the-results {
+		margin-top: 0;
+		padding-top: 0px;
+	}
+
+	.quote-outter {
+		width: 100%;
+	}
+
+	.logo-excerpt, .bottom-logos-list {
+		font-size: 1.2rem;
+	}
+
+	.logo-excerpt {
+		margin-top: -50px;
+	}
+	.results-copy {
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+
+	.logo-farm a img {
+		width: 50%;
+	}
+
+	.logo-farm .tech-crunch img {
+		width: 40%;
+	}
+}
+
+/*****************************/
+/* iPhone 2G - 4S (portrait) */
+/*****************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	.posters div {
+		width: 100%;
+		padding-bottom: 30px;
+	}
+}
+
+/******************************/
+/* iPhone 2G - 4S (landscape) */
+/******************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+	.logo-farm a img {
+		width: 40%;
+	}
+
+	.logo-farm .tech-crunch img {
+		width: 30%;
+	}
+}

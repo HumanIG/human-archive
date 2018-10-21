@@ -1,0 +1,63 @@
+/******************************/
+/***    Contact Page CSS    ***/
+/******************************/
+#image-holder {
+	margin-left: 0;
+}
+
+#broadway-1250 {
+	padding-right: 0;
+	padding-left: 0;
+	background: url('../img/newoffice.png') no-repeat scroll center top transparent;
+	background-size: cover;
+	height: 250px;
+}
+
+#contact-map {
+	padding-left: 0;
+	padding-right: 0;
+	background: url('../img/humanmap.png') no-repeat scroll center top transparent;
+	background-size: cover;
+	height: 250px;
+}
+
+#on-earth {
+	padding-left: 15px;
+}
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+@media only screen and (max-width : 1024px) {
+	#broadway-1250, #contact-map {
+		height: 220px;
+	}
+}
+
+@media only screen and (max-width : 480px) {
+	#broadway-1250, #contact-map {
+		height: 175px;
+	}
+}
+
+/********************************************/
+/***    Tablet and Phone Media Queries    ***/
+/********************************************/
+
+/********/
+/* iPad */
+/********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	#broadway-1250, #contact-map {
+		height: 190px;
+	}
+}
+
+/**********************/
+/*** iPhone 2G - 4S ***/
+/**********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#broadway-1250, #contact-map {
+		height: 100px;
+	}
+}

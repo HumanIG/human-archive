@@ -1,0 +1,146 @@
+body {
+	overflow-x: hidden; 
+}
+
+#hudson-id {
+	display: none;
+}
+
+/*.icon-human_logo_2:before {
+	color: #FFFFFF;
+}
+
+.icon-human_logo_2.small:before {
+	color: #342b29;
+}
+
+.icon-human_logo_2.big:before {
+	color: #FFFFFF;
+}
+
+.nav-link {
+	color: #FFFFFF;
+}
+
+.nav-link:visited {
+	color: #FFFFFF;
+}
+
+.icon-human_logo_2:before {
+	color: #FFFFFF;
+}
+
+.black-line {
+	background-color: #FFFFFF;
+}*/
+
+/**************/
+/*    GRID    */
+/**************/
+
+.col-lg-2-4 {
+	width: 20%;
+}
+
+.margin-bottom-25 {
+	margin-bottom: 25px;
+}
+
+.slight-padding {
+	padding-bottom: 15px;
+}
+
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+@media only screen and (max-width: 1900px) {
+	.caption {
+		margin-top: 8px;
+	}
+        .bottom-margin {
+	 	margin-bottom: 30px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.mini-padding {
+		padding-bottom: 15px;
+	}
+        .bottom-margin {
+	 	margin-bottom: 30px;
+	}
+}
+
+/*****************************************/
+/***  Mobile and Tablet Media Queries  ***/
+/*****************************************/
+
+/********/
+/* iPad */
+/********/
+/*@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29;
+	}
+}
+
+/******************/
+ iPhone 2G - 4S 
+/******************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+        .bottom-margin {
+	 	margin-bottom: 20px;
+	}
+        .icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29;
+	}
+}*/

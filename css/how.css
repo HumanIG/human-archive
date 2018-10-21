@@ -1,0 +1,303 @@
+/*********************/
+/***    How CSS    ***/
+/*********************/
+#infographic {
+	width: 100%;
+	height: auto;
+	background-image: url('../img/graph.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding: 0;
+}
+
+.chart {
+	float: left;
+	width: 20%;
+}
+
+.chart .row {
+	margin: 0;
+}
+
+#listen {
+	width: 16%;
+	margin-right: 2%;
+}
+
+#plan, #create, #build, #promote {
+	width: 18.5%;
+	margin-left: 2%;
+}
+
+.set-width {
+	max-width: 92%;
+}
+
+.infographic-copy {
+  margin-top: 120%;
+  max-width: 280px;
+ 	letter-spacing: -.1px;
+	line-height: 1.1rem;
+	overflow-y: none;
+}
+
+.info-copy {
+	height: 65px;
+}
+
+#listen .infographic-copy {
+	margin-top: 138.5%;
+
+}
+
+.infographic-indent {
+	width: 150px;
+}
+
+.creativity-img {
+	max-width: 240px;
+	max-height: 165px;
+}
+
+.sub-copy {
+	max-width: 230px;
+  line-height: 1.1rem;
+  letter-spacing: -.1px;
+}
+
+.media-clear {
+	display: none;
+}
+
+.culture-description {
+	max-width: 230px;
+  line-height: 1.1rem;
+  letter-spacing: -.1px;
+}
+
+#ondesign {
+  margin-top: 1rem;
+}
+
+/***********************/
+/*    Media Queries    */
+/***********************/
+
+@media only screen and (max-width: 1587px) {
+	.info-copy {
+		height: 75px;
+	}
+}
+
+@media only screen and (max-width: 1219px) {
+	#infographic {
+		background: none;
+	}
+
+	.infographic-copy {
+		margin-top: 0;
+	}
+
+	#listen .infographic-copy {
+		margin-top: 0;
+	}	
+}
+
+@media only screen and (max-width: 1160px) {
+	.media-clear {
+		display: block;
+	}
+
+	#plan, #create, #build, #promote, #listen {
+		width: 30%;
+	}
+
+	#build {
+		margin-left: 0;
+	}
+
+	#promote {
+		margin-left: 4%;
+	}
+
+	#build, #promote {
+		padding-top: 30px;
+	}
+
+	.creativity-image {
+		width: 30%;
+		margin-left: 0;
+		padding-left: 15px;
+	}
+
+	.creativity-img {
+		width: 100%;
+	}
+
+	.info-copy {
+		height: 60px;
+	}
+}
+
+@media only screen and (max-width: 992px) {
+	.info-copy {
+		height: 70px;
+	}
+}
+
+@media only screen and (max-width: 880px) {
+	.media-clear {
+		display: none;
+	}
+
+	#plan, #create, #build, #promote, #listen {
+		width: 45%;
+		padding-top: 30px;
+	}	
+
+	#build {
+		margin-left: 4%;
+	}
+
+	#listen, #create, #promote {
+		margin-left: 0;
+	}
+
+	.creativity-image:nth-child(3) {
+		clear: both;
+	}
+
+	.creativity-image {
+		width: 45%;
+	}
+
+	.info-copy {
+		height: 60px;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#creativity-title {
+		margin-top: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 673px) {
+	.info-copy {
+		height: 70px;
+	}
+
+	.diff-copy {
+		margin-top: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.creativity-image {
+		width: 100%;
+		margin-left: 0;
+		padding-left: 15px;
+	}
+
+	#plan, #create, #build, #promote, #listen {
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.set-width .dark-color {
+		margin-bottom: 5px;
+	}
+
+	.info-copy {
+		height: 58px;
+	}
+
+	.diff-copy {
+		margin-top: 15px;
+	}
+}
+
+@media only screen and (max-width: 1246px) {
+	.small-disp {
+		display: none;
+	}
+}
+
+/********************************************/
+/***    Tablet and Phone Media Queries    ***/
+/********************************************/
+
+/**********************/
+/*** iPhone 2G - 4S ***/
+/**********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	#infographic {
+		margin-top: 0;
+	}
+
+	.chart {
+		padding-top: 10px !important;
+	}
+
+	.chart h3 {
+		margin-bottom: 0;
+	}
+
+	.set-width h5 {
+		margin-bottom: 3px;
+	}
+
+	.set-width .dark-color {
+		margin-bottom: 3px;
+	}
+
+	.info-copy {
+		height: 25px;
+	}
+
+	.diff-copy {
+		margin-top: 10px;
+	}
+
+	.infographic-copy {
+		line-height: 1.4rem;
+	}
+
+	.culture-description, .sub-copy {
+		line-height: 1.4rem;
+	}
+}
+
+/*********************************/
+/*** iPhone 2G - 4S (portrait) ***/
+/*********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : portrait) {
+	.small-disp {
+		display: none;
+	}
+}
+/**********************************/
+/*** iPhone 2G - 4S (landscape) ***/
+/**********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+	.info-copy {
+		height: 40px;
+	}
+
+	.diff-copy {
+		margin-top: 0;
+	}
+
+	.chart {
+		width: 48% !important;
+	}
+
+	#plan, #build {
+		padding-left: 15px;
+	}
+}
+
+
+

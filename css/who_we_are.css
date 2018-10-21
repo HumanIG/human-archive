@@ -1,0 +1,88 @@
+/************************/
+/***    The Humans    ***/
+/************************/
+#humans-container {
+	margin: 0 auto;
+	margin-top: 2%;
+}
+
+.human {
+	padding-left: 0;
+	padding-bottom: 4%;
+}
+
+.human-image {
+	min-width: 190px;
+	max-width: 240px;
+}
+
+.human-name {
+	margin-top: 10px;
+	text-align: left;
+}
+
+.human-position {
+	margin-top: -10px;
+	text-align: left;
+}
+
+.culture-image {
+	margin-top: -2%;
+	max-width: 240px;
+	max-height: 165px;
+}
+
+.culture-description {
+	max-width: 230px;
+  line-height: 1.3rem;
+  letter-spacing: -.1px;
+}
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+
+@media only screen and (max-width: 991px) {
+/*	#third-clear {
+		clear: both;
+	}*/
+}
+
+@media only screen and (max-width: 767px) {
+	.col-xs-6 {
+		/*width: 40%;*/
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	.col-xs-6 {
+		width: 50%;
+	}
+
+	#humans-container .human img {
+		min-width: 140px;
+	}
+
+	#humans-title {
+		margin-bottom: 3%;
+	}
+}
+
+/**********************/
+/*** iPhone 2G - 4S ***/
+/**********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.human-name {
+		margin-top: 6px;
+	}
+}
+
+/**********************************/
+/*** iPhone 2G - 4S (landscape) ***/
+/**********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+.human-image {
+	min-width: 190px;
+	max-width: 190px;
+}
+}

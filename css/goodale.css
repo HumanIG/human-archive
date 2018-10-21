@@ -1,0 +1,28 @@
+body {
+	overflow-x: hidden; 
+}
+
+.switch-on {
+	display: none;
+}
+
+/*************************/
+/***   Media Queries   ***/
+/*************************/
+@media only screen and (max-width: 1024px) {
+	.switch-off {
+		display: none;
+	}
+
+	.switch-on {
+		display: block;
+	}
+
+	.col-mid-12 {
+		width: 100%;
+	}
+
+	.col-mid-6 {
+		width: 50%;
+	}
+}

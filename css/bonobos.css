@@ -1,0 +1,203 @@
+/*************************/
+/***    Bonobos CSS    ***/
+/*************************/
+body {
+	overflow-x: hidden;
+}
+
+.icon-human_logo_2:before {
+	color: #FFFFFF;
+}
+
+.icon-human_logo_2.small:before {
+	color: #342b29;
+}
+
+.icon-human_logo_2.big:before {
+	color: #FFFFFF;
+}
+
+.nav-link {
+	color: #FFFFFF;
+}
+
+.nav-link:visited {
+	color: #FFFFFF;
+}
+
+.icon-human_logo_2:before {
+	color: #FFFFFF;
+}
+
+.black-line {
+	background-color: #FFFFFF;
+}
+
+#bonobos-site {
+	margin: 0px auto;
+	text-align: center;
+	margin-top: 0%;
+}
+
+#bonobos-site img {
+	padding: 0px;
+	border: 1px solid #342B29;
+}
+
+.verticalHeight {
+	height: 100%;
+	text-align: left;
+}
+
+#laptop-img {
+	position: relative;
+}
+
+#bonobos-stamp {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 101;
+	display: none;
+}
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+@media only screen and (max-width: 1024px) {
+	.mini-padding {
+		margin-bottom: 30px;
+	}
+}
+
+@media only screen and (min-width : 2000px) {
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29 !important;
+	}	
+}
+
+@media only screen and (max-width: 580px) {
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29 !important;
+	}	
+}
+
+/*****************************************/
+/***  Mobile and Tablet Media Queries  ***/
+/*****************************************/
+
+/********/
+/* iPad */
+/********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29;
+	}
+}
+
+/******************/
+/* iPhone 2G - 4S */
+/******************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.small:before {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2.big:before {
+		color: #342b29;
+	}
+
+	.nav-link {
+		color: #342b29;
+	}
+
+	.nav-link:visited {
+		color: #342b29;
+	}
+
+	.icon-human_logo_2:before {
+		color: #342b29;
+	}
+
+	.black-line {
+		background-color: #342b29;
+	}
+}
+
+

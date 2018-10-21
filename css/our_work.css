@@ -1,0 +1,366 @@
+html, body {
+  overflow: hidden;
+}
+
+h4 {
+  font-size: 1rem;
+  line-height: 1rem;
+  font-weight: normal;
+  display: block;
+}
+
+/*******************************/
+/***    Horizontal Slider    ***/
+/*******************************/
+#horizontal-bar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: white;
+  z-index: 999;
+}
+
+.horiz-slider {
+  height: 100%;
+  float: left;
+}
+
+.horiz-slider:hover {
+  background-color: #EF6050;
+  opacity: 0.6;
+}
+
+#current-slide {
+  position: relative;
+  height: 100%;
+  background-color: #EF6050;
+  left: 0;
+  bottom: 0;
+}
+
+/********************/
+/*    Title Copy    */
+/********************/
+
+.option {
+  padding-right: 4px;
+  float: left;
+  cursor: pointer;
+  color: rgb(139, 120, 109);
+}
+.option:hover {
+  color: #EF6050;
+}
+#categories {
+  height: 30px;
+}
+#categories .slash {
+  color: #8B786D;
+  margin: 2px;
+  font-size: 1rem;
+  display: block;
+  float: left;
+}
+#categories span {
+  font-size: 1.5rem;
+  padding: 0 4px 10px 0;
+  float: left;
+  color: #8B786D;
+}
+#categories-arrow {
+  font-size: 1.5rem;
+  margin-left: 4px;
+  padding-top: 12px;
+  color: #8B786D;
+  cursor: pointer;
+}
+.selection-header {
+float: left;
+position: relative;
+}
+.expanded {
+float: left;
+}
+.expanded h4, .selection-header h4 { 
+line-height: 1rem;
+margin: 5px;
+padding-top: 0;
+}
+
+.selection-header h4 {
+font-size: 1rem;
+padding-left: 22px;
+}
+.selection-header h4 {
+color: #EF6050;
+}
+.expanded span a {
+display: block;
+float: left;
+outline : none;
+}
+.currentState a {
+  outline : none;
+}
+.icon {
+width: 14px;
+height: 14px;
+position: absolute;
+top: 5px;
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+
+/*
+.hover {
+transform:rotate(45deg);
+-ms-transform:rotate(45deg); 
+-webkit-transform:rotate(45deg);
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+*/
+.hover .line1, .hover .line2 {
+background-color: #EF6050;
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+
+.hover .line1, .hover .line2 {
+background-color: #EF6050;
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+
+
+.hover .icon {
+transform:rotate(45deg);
+-ms-transform:rotate(45deg); 
+-webkit-transform:rotate(45deg);
+-webkit-transition: all .4s;
+transition: all .4s;
+/*margin-left: -4px;*/
+}
+
+.iconOpen {
+transform:rotate(45deg);
+-ms-transform:rotate(45deg); /* IE 9 */
+-webkit-transform:rotate(45deg);
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+.redColor {
+  background-color: #EF6050 !important;
+}
+.line1 {
+width: 2px;
+height: 14px;
+background-color: #000;
+position: absolute;
+top: 0;
+left: 6px;
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+.line2 {
+width: 14px;
+height: 2px;
+background-color: #000;
+position: absolute;
+top: 6px;
+left: 0;
+-webkit-transition: all .4s;
+transition: all .4s;
+}
+
+.currentState {
+display: inline-block;
+}
+.currentState a:hover .square, .currentState a:hover .line {
+background-color: #EF6050 !important;
+}
+
+
+.headline {
+float: left;
+}
+
+#select-filter {
+  width: 40%;
+  height: 80%;
+  font-size: 1rem;
+}
+
+/***************************/
+/***    Work Examples    ***/
+/***************************/
+#work-list {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.work-item {
+  display: inline-block;
+  *display: inline;
+  zoom: 1;
+  margin-bottom: 4%;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.work-image {
+  width: 80%;
+}
+
+.work-title:hover {
+  color: #EF6050 !important;
+}
+
+/***************************/
+/***    Media Queries    ***/
+/***************************/
+@media only screen and (max-height: 700px) {
+  #ourwork-copy {
+    margin-bottom: 8px;
+  }
+  #categories {
+    margin: 2px 0;
+  }
+  .selection-header h4 {
+    padding-top: 0;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  .icon {
+    margin-top: 0;
+    top: 6px;
+  }
+  .square {
+    width: 3px;
+    height: 3px;
+  }
+  .expanded h4 {
+    font-size: 1rem;
+    padding-top: 0;
+  }
+  #categories .slash {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-height: 570px) {
+  #categories {
+    height: 20px;
+  }
+  .icon {
+    top: 5px;
+  }
+}
+
+/********************************************/
+/***    Tablet and Phone Media Queries    ***/
+/********************************************/
+
+/********/
+/* iPad */
+/********/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+  #wrappers {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #horizontal-bar {
+    opacity: 0;
+  }
+
+  .option:hover {
+    color: #342b29;
+  }
+}
+
+/*******************/
+/* iPad (portrait) */
+/*******************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+  #categories .slash {
+    padding-top: 2px;
+  }
+}
+
+/********************/
+/* iPad (landscape) */
+/********************/
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+  #ourwork-copy {
+    margin-bottom: 10px;
+  }
+  #categories {
+    height: 30px;
+    margin: 1% 0;
+  }
+  .selection-header h4 {
+    padding: 10px 0px;
+    margin: 0 0 0 20px;
+  }
+  .icon {
+    margin-top: 11px;
+    top: 0;
+  }
+  .expanded h4 {
+    font-size: 1rem;
+    padding-top: 10px;
+  }
+  .expanded {
+    margin-top: -5px;
+  }
+  .first-slash {
+    margin-top: -5px !important;
+    padding-left: 5px !important;
+  }
+  #categories .slash {
+    padding-top: 12px;
+  }
+}
+
+/**********************/
+/*** iPhone 2G - 4S ***/
+/**********************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #wrappers {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  #horizontal-bar {
+    opacity: 0;
+  }
+
+  .option:hover {
+    color: #342b29;
+  }
+}
+
+/**********************************/
+/*** iPhone 2G - 4S (landscape) ***/
+/**********************************/
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) and (orientation : landscape) {
+  .page-header {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
